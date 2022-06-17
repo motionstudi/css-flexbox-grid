@@ -74,7 +74,9 @@ p{
     grid-template-columns: repeat(5, 1fr );
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    padding-left: 170px;
+    padding: 80px;
+    padding-left: 130px;
+
     background-color: rgb(26,28,40);
 
   }
