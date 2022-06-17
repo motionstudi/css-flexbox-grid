@@ -74,7 +74,9 @@ p{
     grid-template-columns: repeat(5, 1fr );
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    padding: 170px;
+    padding: 80px;
+    padding-left: 130px;
+
     background-color: rgb(26,28,40);
 
   }
@@ -124,7 +126,7 @@ p{
     border-radius: 50px;
 
 }
-#btn:hover{
+#btn:FOCUS{
     background-color: #ffffff;
     color: #E28525;
     border: 2px solid #fcfcfc;
@@ -139,7 +141,7 @@ p{
     width: 100px;    
     border-radius: 50px;
 }
-#btnone:hover{
+#btnone:focus{
     background-color: #ffffff;
     color: rgb(1,105,114);
     border: 2px solid #fcfcfc;
@@ -154,7 +156,7 @@ p{
     width: 100px;    
     border-radius: 50px;
 }
-#btntwo:hover{
+#btntwo:focus{
     background-color: #ffffff;
     color: rgb(0,64,63);
     border: 2px solid #fcfcfc;
@@ -179,6 +181,7 @@ padding-left: -500px;
     border: 2px solid #ffffff;
     height: 40px;
     width: 100px;    
+    margin-top: 100px;
     border-radius: 50px;
 }
 a{
